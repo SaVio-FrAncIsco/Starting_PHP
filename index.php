@@ -1,7 +1,7 @@
 <?php
     include './lib/listar.php';
     $alunos= listar_alunos();
-    $alunoEsp= $GLOBALS["alunos"][6]
+    $alunoEsp= $GLOBALS["alunos"][6];
 ?>
 <!DOCTYPE html>
 <html lang="en">

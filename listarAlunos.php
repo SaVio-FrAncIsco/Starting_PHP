@@ -1,5 +1,6 @@
 <?php
-
+    include './lib/listar.php';
+    $alunos = listar_alunos();
 
 ?>
 <!DOCTYPE html>
@@ -17,7 +18,14 @@
     </header>
     <main>
         <ul>
+            <?php
 
+                for($i=0; $i<count($alunos); $i++){
+
+                    echo '<li>'.$alunos[$i].'</li>';
+                }
+            
+            ?>
         </ul>
     </main>    
 </body>
