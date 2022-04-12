@@ -1,8 +1,9 @@
 <?php
-    include './lib/listar.php';
+    include './lib/Banco.php';
     $alunos= listar_alunos();
     $alunoEsp= $GLOBALS["alunos"][6];
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
