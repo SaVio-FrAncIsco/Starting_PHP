@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel= "stylesheet" href="./assets/css/style.css">
+    <link rel= "stylesheet" href="./assets/css/styles.css">
     <title>Cadastro</title>
 </head>
 <body>
-    <header>
+    <header class="head">
         <a href="/">Home</a>
         <a href="/listarAlunos.php">Tabela Alunos</a>
     </header>
@@ -32,3 +32,31 @@
     </footer>
 </body>
 </html>
+
+<!--
+<header>
+
+        <section>
+
+            <figure>
+
+                <img src="" alt="logo">
+
+            </figure>
+
+            <a href="/login.php?sair=1">Sair</a>
+
+        </section>
+
+        <section>
+
+            <a href="/">HOME</a>
+
+            <a href="/listaAlunos.php">Alunos</a>
+
+            <a href="/cadastrarAluno.php">Cadastrar</a>
+
+        </section>
+
+    </header>
+-->
